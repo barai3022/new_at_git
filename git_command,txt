@@ -1,0 +1,6 @@
+mkdir gitone
+cd gitone
+gitone touch one.txt
+gitone touch two.txt
+gitone mkdir myFolder
+cd myFolder
