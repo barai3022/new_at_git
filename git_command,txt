@@ -4,3 +4,27 @@ gitone touch one.txt
 gitone touch two.txt
 gitone mkdir myFolder
 cd myFolder
+myFolder touch three.txt
+cd 
+git clone 'git_file_address"
+git status
+git -all # for staging all
+git -A # for staging all
+git . #work only current directory
+git add * # for staging all except deleted item
+git commit -m "comment"
+git reset --hard # create deleted file
+git rm --cached two.txt
+git rm -r folder 
+--branching & merging --
+git branch development
+git checkout development
+--development main merger --
+git merge main -m "comment" #from development
+git checkout main
+git merge development # from main
+git puch origin main
+git checkout staging
+git fetch
+git merge
+git pull 
