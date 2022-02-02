@@ -1,3 +1,5 @@
+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
+
 mkdir gitone
 cd gitone
 gitone touch one.txt
@@ -6,6 +8,7 @@ gitone mkdir myFolder
 cd myFolder
 myFolder touch three.txt
 cd 
+git init
 git clone 'git_file_address"
 git status
 git -all # for staging all
