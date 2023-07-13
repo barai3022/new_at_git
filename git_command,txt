@@ -11,9 +11,9 @@ cd
 git init
 git clone 'git_file_address"
 git status
-git -all # for staging all
-git -A # for staging all
-git . #work only current directory
+git add -all # for staging all
+git add -A # for staging all
+git add . #work only current directory
 git add * # for staging all except deleted item
 git commit -m "comment"
 git reset --hard # create deleted file
