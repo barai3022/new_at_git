@@ -31,3 +31,7 @@ git checkout staging
 git fetch
 git merge
 git pull 
+git log 
+git reset
+git spash
+git rebase -i "comment id"
